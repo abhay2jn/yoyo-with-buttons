@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height :100vh;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+.box-conatiner {
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background: goldenrod;
+}
+.play {
+    padding: 10px 20px;
+    margin-left: 10px;
+    outline: none;
+}
+.pause {
+    padding: 10px 20px;
+    margin-left: 10px;
+    outline: none;
+}
+.restart {
+    padding: 10px 20px;
+    margin-left: 10px;
+    outline: none;
+}
